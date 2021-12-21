@@ -1,4 +1,4 @@
-DAYS := $(shell seq 1 19)
+DAYS := $(shell seq 1 20)
 PROBLEMS := $(foreach day,$(DAYS),$(day)a $(day)b)
 EXAMPLES := $(foreach day,$(DAYS),$(day)a_example $(day)b_example)
 
